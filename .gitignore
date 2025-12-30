@@ -1,9 +1,56 @@
-/.bundle/
-/.yardoc
-/_yardoc/
+# Ruby
+*.gem
+*.rbc
+/.config
 /coverage/
-/doc/
+/InstalledFiles
 /pkg/
 /spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
 /tmp/
+*.bundle
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+*.log
+*.orig
+*.rej
+*.swo
+*.swp
+.DS_Store
+
+# Python
 __pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Results and temporary files
+swe-bench/results/*.json
+*.log
+*.tmp
+
+# Keep results directory but ignore contents
+!swe-bench/results/.gitkeep

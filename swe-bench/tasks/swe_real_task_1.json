@@ -1,0 +1,8 @@
+{
+  "instance_id": "django__django-12345",
+  "repo": "django/django",
+  "base_commit": "abc123def",
+  "problem_statement": "Add a utility function `format_phone_number` that formats a 10-digit phone number string into (XXX) XXX-XXXX format. The function should take a string and return a formatted string.",
+  "test_patch": "def test_format_phone_number():\n    assert format_phone_number('1234567890') == '(123) 456-7890'\n    assert format_phone_number('9876543210') == '(987) 654-3210'\n    assert format_phone_number('5551234567') == '(555) 123-4567'",
+  "patch": ""
+}

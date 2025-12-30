@@ -1,0 +1,8 @@
+{
+  "instance_id": "requests__requests-23456",
+  "repo": "psf/requests",
+  "base_commit": "def456ghi",
+  "problem_statement": "Create a function `parse_query_string` that takes a URL query string and returns a dictionary of key-value pairs. The function should handle query strings like 'a=1&b=2' and return {'a': '1', 'b': '2'}.",
+  "test_patch": "def test_parse_query_string():\n    assert parse_query_string('a=1&b=2') == {'a': '1', 'b': '2'}\n    assert parse_query_string('name=test&value=123') == {'name': 'test', 'value': '123'}\n    assert parse_query_string('key=value&foo=bar') == {'key': 'value', 'foo': 'bar'}",
+  "patch": ""
+}

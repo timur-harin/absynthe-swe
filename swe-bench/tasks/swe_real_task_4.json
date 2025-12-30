@@ -1,0 +1,10 @@
+{
+  "instance_id": "django__django-14234",
+  "repo": "django/django",
+  "base_commit": "a1b2c3d4e5f6",
+  "problem_statement": "Create a utility function `reverse_string` that takes a string and returns the reversed version. The function should handle empty strings and single character strings correctly.",
+  "test_patch": "def test_reverse_string():\n    assert reverse_string('hello') == 'olleh'\n    assert reverse_string('world') == 'dlrow'\n    assert reverse_string('a') == 'a'\n    assert reverse_string('') == ''\n    assert reverse_string('Python') == 'nohtyP'",
+  "patch": "",
+  "source": "Based on Django utility functions pattern. Similar to real SWE-bench tasks from https://github.com/swe-bench/SWE-bench"
+}
+

@@ -1,0 +1,10 @@
+{
+  "instance_id": "flask__flask-9876",
+  "repo": "pallets/flask",
+  "base_commit": "f6e5d4c3b2a1",
+  "problem_statement": "Write a function `capitalize_words` that takes a string of words separated by spaces and returns a new string where the first letter of each word is capitalized. Handle empty strings and single words correctly.",
+  "test_patch": "def test_capitalize_words():\n    assert capitalize_words('hello world') == 'Hello World'\n    assert capitalize_words('python programming') == 'Python Programming'\n    assert capitalize_words('a') == 'A'\n    assert capitalize_words('') == ''\n    assert capitalize_words('test') == 'Test'",
+  "patch": "",
+  "source": "Based on Flask string utility patterns. Similar to real SWE-bench tasks from https://github.com/swe-bench/SWE-bench"
+}
+

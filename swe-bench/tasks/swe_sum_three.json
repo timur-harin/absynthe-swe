@@ -1,0 +1,9 @@
+{
+  "instance_id": "swe_sum_three",
+  "repo": "numpy/numpy",
+  "base_commit": "HEAD",
+  "problem_statement": "Write a function that calculates the sum of three integers. The function should return the sum of all three inputs.",
+  "test_patch": "def test_sum_three():\n    assert sum_three(1, 2, 3) == 6\n    assert sum_three(5, 3, 4) == 12\n    assert sum_three(0, 0, 0) == 0\n    assert sum_three(-1, -2, -3) == -6\n    assert sum_three(10, 20, 15) == 45\n    assert sum_three(100, 50, 75) == 225",
+  "patch": ""
+}
+

@@ -1,0 +1,9 @@
+{
+  "instance_id": "simple_add",
+  "repo": "test/repo",
+  "base_commit": "HEAD",
+  "problem_statement": "Write a function that adds two integers and returns the result.",
+  "test_patch": "def test_add():\n    assert add(1, 2) == 3\n    assert add(5, 3) == 8\n    assert add(0, 0) == 0\n    assert add(10, 20) == 30\n    assert add(-1, 1) == 0",
+  "patch": ""
+}
+

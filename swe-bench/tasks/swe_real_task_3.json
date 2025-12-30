@@ -1,0 +1,8 @@
+{
+  "instance_id": "pandas__pandas-34567",
+  "repo": "pandas-dev/pandas",
+  "base_commit": "ghi789jkl",
+  "problem_statement": "Write a function `multiply_two` that takes two integers and returns their product. The function should handle positive and negative numbers correctly.",
+  "test_patch": "def test_multiply_two():\n    assert multiply_two(2, 3) == 6\n    assert multiply_two(5, 4) == 20\n    assert multiply_two(-2, 3) == -6\n    assert multiply_two(0, 100) == 0\n    assert multiply_two(10, 10) == 100",
+  "patch": ""
+}

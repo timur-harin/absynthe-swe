@@ -1,0 +1,9 @@
+{
+  "instance_id": "simple_concat",
+  "repo": "test/repo",
+  "base_commit": "HEAD",
+  "problem_statement": "Write a function that concatenates two strings and returns the result.",
+  "test_patch": "def test_concat():\n    assert concat('hello', 'world') == 'helloworld'\n    assert concat('foo', 'bar') == 'foobar'\n    assert concat('a', 'b') == 'ab'\n    assert concat('', 'test') == 'test'\n    assert concat('test', '') == 'test'",
+  "patch": ""
+}
+
