@@ -1,0 +1,38 @@
+{
+  "task_id": "swe_real_2",
+  "functions_synthesized": 1,
+  "functions_validated": 1,
+  "combined_code": "# format_phone_number\ndef format_phone_number(arg0):\n    return \"(\" + arg0[0:3] + \") \" + arg0[3:6] + \"-\" + arg0[6:10]\n",
+  "details": {
+    "format_phone_number": {
+      "code": "def format_phone_number(arg0):\n    return \"(\" + arg0[0:3] + \") \" + arg0[3:6] + \"-\" + arg0[6:10]",
+      "validation": [
+        {
+          "input": [
+            "1234567890"
+          ],
+          "expected": "(123) 456-7890",
+          "actual": "(123) 456-7890",
+          "match": true
+        },
+        {
+          "input": [
+            "9876543210"
+          ],
+          "expected": "(987) 654-3210",
+          "actual": "(987) 654-3210",
+          "match": true
+        },
+        {
+          "input": [
+            "5551234567"
+          ],
+          "expected": "(555) 123-4567",
+          "actual": "(555) 123-4567",
+          "match": true
+        }
+      ],
+      "all_passed": true
+    }
+  }
+}

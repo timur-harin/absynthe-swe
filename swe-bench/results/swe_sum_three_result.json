@@ -1,0 +1,74 @@
+{
+  "task_id": "swe_sum_three",
+  "functions_synthesized": 1,
+  "functions_validated": 1,
+  "combined_code": "# sum_three\ndef sum_three(arg0, arg1, arg2):\n    return arg0 + arg1 + arg2\n",
+  "details": {
+    "sum_three": {
+      "code": "def sum_three(arg0, arg1, arg2):\n    return arg0 + arg1 + arg2",
+      "validation": [
+        {
+          "input": [
+            1,
+            2,
+            3
+          ],
+          "expected": 6,
+          "actual": 6,
+          "match": true
+        },
+        {
+          "input": [
+            5,
+            3,
+            4
+          ],
+          "expected": 12,
+          "actual": 12,
+          "match": true
+        },
+        {
+          "input": [
+            0,
+            0,
+            0
+          ],
+          "expected": 0,
+          "actual": 0,
+          "match": true
+        },
+        {
+          "input": [
+            -1,
+            -2,
+            -3
+          ],
+          "expected": -6,
+          "actual": -6,
+          "match": true
+        },
+        {
+          "input": [
+            10,
+            20,
+            15
+          ],
+          "expected": 45,
+          "actual": 45,
+          "match": true
+        },
+        {
+          "input": [
+            100,
+            50,
+            75
+          ],
+          "expected": 225,
+          "actual": 225,
+          "match": true
+        }
+      ],
+      "all_passed": true
+    }
+  }
+}

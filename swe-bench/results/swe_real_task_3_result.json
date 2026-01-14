@@ -1,0 +1,59 @@
+{
+  "task_id": "swe_real_task_3",
+  "functions_synthesized": 1,
+  "functions_validated": 1,
+  "combined_code": "# multiply_two\ndef multiply_two(arg0, arg1):\n    return arg0 * arg1\n",
+  "details": {
+    "multiply_two": {
+      "code": "def multiply_two(arg0, arg1):\n    return arg0 * arg1",
+      "validation": [
+        {
+          "input": [
+            2,
+            3
+          ],
+          "expected": 6,
+          "actual": 6,
+          "match": true
+        },
+        {
+          "input": [
+            5,
+            4
+          ],
+          "expected": 20,
+          "actual": 20,
+          "match": true
+        },
+        {
+          "input": [
+            -2,
+            3
+          ],
+          "expected": -6,
+          "actual": -6,
+          "match": true
+        },
+        {
+          "input": [
+            0,
+            100
+          ],
+          "expected": 0,
+          "actual": 0,
+          "match": true
+        },
+        {
+          "input": [
+            10,
+            10
+          ],
+          "expected": 100,
+          "actual": 100,
+          "match": true
+        }
+      ],
+      "all_passed": true
+    }
+  }
+}

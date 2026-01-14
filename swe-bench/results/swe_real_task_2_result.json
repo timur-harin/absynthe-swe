@@ -1,0 +1,56 @@
+{
+  "task_id": "swe_real_task_2",
+  "functions_synthesized": 1,
+  "functions_validated": 1,
+  "combined_code": "# parse_query_string\ndef parse_query_string(arg0):\n    return {arg0.split(\"&\")[0].split(\"=\")[0]: arg0.split(\"&\")[0].split(\"=\")[1], arg0.split(\"&\")[1].split(\"=\")[0]: arg0.split(\"&\")[1].split(\"=\")[1]}\n",
+  "details": {
+    "parse_query_string": {
+      "code": "def parse_query_string(arg0):\n    return {arg0.split(\"&\")[0].split(\"=\")[0]: arg0.split(\"&\")[0].split(\"=\")[1], arg0.split(\"&\")[1].split(\"=\")[0]: arg0.split(\"&\")[1].split(\"=\")[1]}",
+      "validation": [
+        {
+          "input": [
+            "a=1&b=2"
+          ],
+          "expected": {
+            "a": "1",
+            "b": "2"
+          },
+          "actual": {
+            "a": "1",
+            "b": "2"
+          },
+          "match": true
+        },
+        {
+          "input": [
+            "name=test&value=123"
+          ],
+          "expected": {
+            "name": "test",
+            "value": "123"
+          },
+          "actual": {
+            "name": "test",
+            "value": "123"
+          },
+          "match": true
+        },
+        {
+          "input": [
+            "key=value&foo=bar"
+          ],
+          "expected": {
+            "key": "value",
+            "foo": "bar"
+          },
+          "actual": {
+            "key": "value",
+            "foo": "bar"
+          },
+          "match": true
+        }
+      ],
+      "all_passed": true
+    }
+  }
+}

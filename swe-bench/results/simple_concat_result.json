@@ -1,0 +1,59 @@
+{
+  "task_id": "simple_concat",
+  "functions_synthesized": 1,
+  "functions_validated": 1,
+  "combined_code": "# concat\ndef concat(arg0, arg1):\n    return arg0 + arg1\n",
+  "details": {
+    "concat": {
+      "code": "def concat(arg0, arg1):\n    return arg0 + arg1",
+      "validation": [
+        {
+          "input": [
+            "hello",
+            "world"
+          ],
+          "expected": "helloworld",
+          "actual": "helloworld",
+          "match": true
+        },
+        {
+          "input": [
+            "foo",
+            "bar"
+          ],
+          "expected": "foobar",
+          "actual": "foobar",
+          "match": true
+        },
+        {
+          "input": [
+            "a",
+            "b"
+          ],
+          "expected": "ab",
+          "actual": "ab",
+          "match": true
+        },
+        {
+          "input": [
+            "",
+            "test"
+          ],
+          "expected": "test",
+          "actual": "test",
+          "match": true
+        },
+        {
+          "input": [
+            "test",
+            ""
+          ],
+          "expected": "test",
+          "actual": "test",
+          "match": true
+        }
+      ],
+      "all_passed": true
+    }
+  }
+}

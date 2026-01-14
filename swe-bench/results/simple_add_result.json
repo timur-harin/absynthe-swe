@@ -1,0 +1,59 @@
+{
+  "task_id": "simple_add",
+  "functions_synthesized": 1,
+  "functions_validated": 1,
+  "combined_code": "# add\ndef add(arg0, arg1):\n    return arg0 + arg1\n",
+  "details": {
+    "add": {
+      "code": "def add(arg0, arg1):\n    return arg0 + arg1",
+      "validation": [
+        {
+          "input": [
+            1,
+            2
+          ],
+          "expected": 3,
+          "actual": 3,
+          "match": true
+        },
+        {
+          "input": [
+            5,
+            3
+          ],
+          "expected": 8,
+          "actual": 8,
+          "match": true
+        },
+        {
+          "input": [
+            0,
+            0
+          ],
+          "expected": 0,
+          "actual": 0,
+          "match": true
+        },
+        {
+          "input": [
+            10,
+            20
+          ],
+          "expected": 30,
+          "actual": 30,
+          "match": true
+        },
+        {
+          "input": [
+            -1,
+            1
+          ],
+          "expected": 0,
+          "actual": 0,
+          "match": true
+        }
+      ],
+      "all_passed": true
+    }
+  }
+}

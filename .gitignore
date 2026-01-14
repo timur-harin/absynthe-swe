@@ -47,10 +47,5 @@ Thumbs.db
 *.swo
 *~
 
-# Results and temporary files
-swe-bench/results/*.json
-*.log
-*.tmp
-
 # Keep results directory but ignore contents
 !swe-bench/results/.gitkeep

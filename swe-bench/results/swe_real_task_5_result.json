@@ -1,0 +1,54 @@
+{
+  "task_id": "swe_real_task_5",
+  "functions_synthesized": 1,
+  "functions_validated": 1,
+  "combined_code": "# capitalize_words\ndef capitalize_words(arg0):\n    return arg0.title()\n",
+  "details": {
+    "capitalize_words": {
+      "code": "def capitalize_words(arg0):\n    return arg0.title()",
+      "validation": [
+        {
+          "input": [
+            "hello world"
+          ],
+          "expected": "Hello World",
+          "actual": "Hello World",
+          "match": true
+        },
+        {
+          "input": [
+            "python programming"
+          ],
+          "expected": "Python Programming",
+          "actual": "Python Programming",
+          "match": true
+        },
+        {
+          "input": [
+            "a"
+          ],
+          "expected": "A",
+          "actual": "A",
+          "match": true
+        },
+        {
+          "input": [
+            ""
+          ],
+          "expected": "",
+          "actual": "",
+          "match": true
+        },
+        {
+          "input": [
+            "test"
+          ],
+          "expected": "Test",
+          "actual": "Test",
+          "match": true
+        }
+      ],
+      "all_passed": true
+    }
+  }
+}
